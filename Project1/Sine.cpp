@@ -42,3 +42,7 @@ void Sine::print()
 {
 	std::cout << coefficient << "*sin(x + " << phaseShift << ")";
 }
+
+Function* Sine::clone() {
+	return new Sine(*this);
+}

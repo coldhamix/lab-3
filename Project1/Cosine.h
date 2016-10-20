@@ -18,5 +18,7 @@ public:
 
 	virtual void read();
 	virtual void print();
+
+	virtual Function* clone();
 };
 

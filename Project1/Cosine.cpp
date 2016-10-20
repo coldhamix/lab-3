@@ -43,3 +43,7 @@ void Cosine::print()
 {
 	std::cout << coefficient << "*cos(x + " << phaseShift << ")";
 }
+
+Function* Cosine::clone() {
+	return nullptr;
+}

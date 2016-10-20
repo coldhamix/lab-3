@@ -19,5 +19,7 @@ public:
 
 	virtual void read() = 0;
 	virtual void print() = 0;
+
+	virtual Function* clone() = 0;
 };
 
