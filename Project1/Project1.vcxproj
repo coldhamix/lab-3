@@ -110,6 +110,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Cosine.cpp" />
     <ClCompile Include="Function.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Sine.cpp" />
@@ -117,6 +118,7 @@
     <ClCompile Include="Util.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Cosine.h" />
     <ClInclude Include="Function.h" />
     <ClInclude Include="Sine.h" />
     <ClInclude Include="Sum.h" />

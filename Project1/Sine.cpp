@@ -1,6 +1,6 @@
 #include "Sine.h"
 
-Sine::Sine() : Function(0.0), phaseShift(0.0)
+Sine::Sine() : Function(), phaseShift(0.0)
 {
 	std::cout << "[DEFAULT] Generating new sine function with phase shift of " << phaseShift << std::endl;
 }
